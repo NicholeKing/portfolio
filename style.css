@@ -1,0 +1,111 @@
+.passion-one-regular {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.passion-one-bold {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.passion-one-black {
+  font-family: "Passion One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.quattrocento-sans-regular {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quattrocento-sans-bold {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.quattrocento-sans-regular-italic {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.quattrocento-sans-bold-italic {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+* {
+    font-family: 'Quattrocento Sans', Arial, Helvetica, sans-serif;
+}
+
+
+.box {
+    border: 1px solid rgb(252, 252, 252, 0.1);
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0px auto;
+}
+
+.bg {
+    background-color: rgb(38, 38, 39);
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.header, .about {
+    color: snow;
+}
+
+.intro p {
+    font-size: 22px;
+}
+
+.highlight {
+    background-color: rgba(23, 240, 255, 0.5);
+    padding: 0px 4px;
+    font-style: italic;
+}
+
+.projects {
+    margin: auto;
+    max-width: 1520px;
+}
+
+.projects p {
+    font-size: 18px;
+}
+
+.card {
+    height: 250px;
+    padding: 10px;
+    border: none;
+}
+
+.card img {
+    max-height: 80%;
+    object-fit: contain;
+    opacity: 1;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.card img:hover {
+    opacity: 0.5;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+.footer {
+    height: 50px;
+}
