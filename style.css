@@ -86,7 +86,7 @@
 }
 
 .card {
-    height: 250px;
+    height: 290px;
     padding: 10px;
     border: none;
 }
@@ -98,7 +98,7 @@
     transition: opacity 0.1s ease-in-out;
 }
 
-.card img:hover {
+.hov img:hover {
     opacity: 0.5;
 }
 
@@ -108,4 +108,17 @@
 
 .footer {
     height: 50px;
+}
+
+.tools p {
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
